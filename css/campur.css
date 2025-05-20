@@ -1,0 +1,164 @@
+@media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      height: auto;
+      padding: 15px 10px;
+    }
+    
+    .logo-bot {
+      margin-bottom: 10px;
+    }
+    
+    .menu {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+    
+    .btn {
+      padding: 6px 12px;
+      font-size: 14px;
+      margin: 0 5px;
+    }
+    
+    /* Section 1 adjustments */
+    .section-1 {
+      height: auto;
+      padding: 60px 20px 40px;
+      text-align: center;
+    }
+    
+    .section-1 h1 {
+      font-size: 24px;
+      margin: 0 auto 15px;
+    }
+    
+    .section-1 p {
+      font-size: 14px;
+      max-width: 95%;
+      margin: 0 auto;
+    }
+    
+    /* Content sections adjustments */
+    section {
+      height: auto;
+      padding: 40px 20px;
+    }
+    
+    .section-2, .section-3, .section-4 {
+      height: auto;
+      padding: 40px 20px;
+    }
+    
+    .content-wrapper {
+      flex-direction: column;
+      gap: 30px;
+    }
+    
+    .text {
+      margin-left: 0 !important;
+      text-align: center;
+      min-width: 100%;
+    }
+    
+    .section-2 p, .section-3 p, .section-4 p {
+      font-size: 16px;
+      max-width: 100%;
+      margin: 0 auto;
+    }
+    
+    .section-2 img, .section-3 img, .section-4 img {
+      max-width: 80%;
+      margin: 0 auto !important;
+    }
+    
+    .section-4 img {
+      width: 80%;
+    }
+    
+    .cta-section {
+      height: auto;
+      padding: 30px 15px;
+    }
+    
+    .card-cta {
+    justify-content: center;
+    text-align: center;
+      width: 90%;
+      padding: 25px 15px;
+    }
+    
+    .cta-text h2 {
+      font-size: 22px;
+      text-align: center;
+    }
+    
+    .cta-text p {
+      font-size: 14px;
+      text-align: center;
+    }
+    
+    .cta-buttons {
+      width: 80%;
+      margin-top: 20px;
+    }
+    
+    .cta-button {
+      width: 100%;
+    }
+    
+    /* Articles section adjustments */
+    .artikel-section {
+      height: auto;
+      padding-bottom: 40px;
+    }
+    
+    .artikel-cards {
+      gap: 20px;
+      padding: 0 10px;
+    }
+    
+    .artikel-cards .card {
+      max-width: 100%;
+    }
+    
+    /* Footer adjustments */
+    .footer {
+      padding: 20px 15px;
+    }
+    
+    .footer-content p {
+      font-size: 12px;
+    }
+  }
+  
+  /* Additional small screen adjustments */
+  @media (max-width: 480px) {
+    .section-1 h1 {
+      font-size: 20px;
+    }
+    
+    .section-2 h1, .section-3 h1, .section-4 h1 {
+      font-size: 22px;
+    }
+    
+    .section-2 img, .section-3 img, .section-4 img {
+      max-width: 95%;
+    }
+    
+    .artikel-cards .card {
+      padding: 15px;
+    }
+    
+    .artikel-cards .card h3 {
+      font-size: 18px;
+    }
+  }
+  
+  /* Fix for sections that don't need to be 100vh on mobile */
+  @media (max-width: 768px) {
+    section {
+      min-height: auto;
+    }
+  }

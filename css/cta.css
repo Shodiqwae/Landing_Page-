@@ -1,0 +1,76 @@
+.cta-section {
+    height: 350px;
+}
+.card-cta {
+    margin: 0;
+    width: 96%;
+    background-color: #15b51d;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px;
+  }
+  
+  .cta-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap; /* agar tetap rapi di mobile */
+  }
+  
+  .cta-text {
+    flex: 1;
+    margin-left: 10px;
+  }
+  
+  .cta-text h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  
+  .cta-text p {
+    font-size: 16px;
+  }
+  
+  .cta-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .cta-button {
+    background-color: white;
+    color: #2adb33;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    transition: background 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .cta-button.secondary {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+  }
+  
+  /* Optional: responsif */
+  @media (max-width: 768px) {
+    .cta-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .cta-buttons {
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  }
+  

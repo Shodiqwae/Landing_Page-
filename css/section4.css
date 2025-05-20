@@ -1,0 +1,41 @@
+.section-4 {
+    margin-top: 100px;
+    background-color: #ffffff;
+    padding: 40px;
+    height: 550px;
+}
+  
+  .content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    flex-wrap: wrap; /* untuk responsif */
+  }
+  
+  .section-4 .text {
+    flex: 1;
+    min-width: 300px;
+    margin-left: 90px;
+  }
+  
+  .section-4 h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .section-4 p {
+    font-size: 18px;
+    max-width: 70%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .section-4 img {
+    flex: 1;
+    max-width: 450px;
+    width: 10%;
+    margin-right: 150px;
+    height: auto;
+  }
+  
